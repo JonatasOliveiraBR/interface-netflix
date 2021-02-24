@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/main.css">
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
     <title>Netflix Clone</title>
 </head>
 <body>
@@ -32,15 +38,32 @@
                     </button>
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
-                        MAIS INFORMAÇÕES
+                        <a class="link" href="https://www.youtube.com/watch?v=2-W6_6gJda0" target="_blank">MAIS INFORMAÇÕES</a>
                     </button>
                 </div>
             </div>
         </div>
     </main>
 
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><h4><a href="https://www.youtube.com/watch?v=u8ZsUivELbs" target="_blank"><img class="box-filme" src="img/mini (1).jpg" alt=""></a></h4></div>           
+            <div class="item"><h4><img class="box-filme" src="img/mini (2).jpg" alt=""></h4></div>           
+            <div class="item"><h4><img class="box-filme" src="img/mini (3).jpg" alt=""></h4></div>           
+            <div class="item"><h4><img class="box-filme" src="img/mini (4).jpg" alt=""></h4></div>           
+            <div class="item"><h4><img class="box-filme" src="img/mini (5).jpg" alt=""></h4></div>           
+            <div class="item"><h4><img class="box-filme" src="img/mini (6).jpg" alt=""></h4></div>           
+            <div class="item"><h4><img class="box-filme" src="img/mini (7).jpg" alt=""></h4></div>           
+            <div class="item"><h4><img class="box-filme" src="img/mini (8).jpg" alt=""></h4></div>           
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/2a479aaf7e.js" crossorigin="anonymous"></script>
 
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 
 </body>
 </html>
